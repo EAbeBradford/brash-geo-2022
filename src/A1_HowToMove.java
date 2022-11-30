@@ -5,14 +5,18 @@ public class A1_HowToMove extends World {
 
         System.out.println("This message will be printed to the window below.");
         System.out.println("That window is called the dos window");
-        plane.pausetime = 2;
-        plane.startingAngle(100);
-        plane.isTrail = false;
+        plane.pausetime = 0;
+        plane.startingAngle(90);
+        plane.isTrail = true;
         plane.move(20);
         plane.isTrail = false;
         plane.move(100);
         plane.isTrail = true;
-        plane.move(200);
+        plane.move(75);
+        plane.isTrail = false;
+        plane.move(100);
+        plane.isTrail = true;
+        plane.move(1000000);
 
 
     }
