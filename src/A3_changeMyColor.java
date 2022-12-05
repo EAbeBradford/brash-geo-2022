@@ -10,7 +10,7 @@ public class A3_changeMyColor extends World {
         plane.startingAngle(45);
         plane.isTrail = true;
         plane.trailWidth = 10;
-        plane.setColor(130, 0, 130);
+        plane.setColor(255, 255, 255);
         plane.move(100);
 
     }

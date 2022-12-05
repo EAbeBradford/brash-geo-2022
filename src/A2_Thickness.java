@@ -5,15 +5,34 @@ public class A2_Thickness extends World {
 
         System.out.println("This message will be printed to the window below.");
         System.out.println("A2 Thickness");
-        plane.startingAngle(315);
+        house();
+       plane.teleport(111,609);
+        house();
+        plane.teleport(729,75);
+        house();
+        plane.teleport(762,538);
+        house();
+
+    }
+
+    public void house() {
+        plane.startingAngle(0);
         plane.isTrail = true;
-        plane.trailWidth = 100;
-        plane.move(100);
-        plane.startingAngle(45);
         plane.trailWidth = 10;
-        plane.move(1000);
+        plane.move(100);
+        plane.turn(120);
+        plane.move(100);
+        plane.turn(120);
+        plane.move(100);
 
-
+        plane.turn(30);
+        plane.move(100);
+        plane.turn(90);
+        plane.move(100);
+        plane.turn(90);
+        plane.move(100);
+        plane.turn(90);
+        plane.move(100);
     }
 
 }
